@@ -85,8 +85,7 @@ if(!empty($customer_phone_no)){
         //'+1234567890',
         array(                                          // Your Twilio credentails
             'twilio_account' => array( 'sid' => 'ACa5a21802beff96f147d40bf98c957038', 'token' => '7852c807435af28d468344ca57a49d2a'),
-            'twilio_number' => '+8613130511523'
-            //'twilio_number' => 'xxxxxxxxxx'
+            'twilio_number' => '+1234567890'
         ),                                              // Your customer platform endpoint
         array(
             'type' => 'sip',                          // can be 'sip' or 'phone'
