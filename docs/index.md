@@ -26,4 +26,8 @@ The initiative of this library is based on the demand to write a module for webs
 > - [Ruby](ruby.md)
 > - [NodeJS](nodejs.md)
 
+## Dependencies
+> - PHP >= 5.2.3
+> - [twilio-php 4.3.0](https://www.github.com/twilio/twilio-php)
+
 #### *Authored by @Fujio Harou, 2015*
