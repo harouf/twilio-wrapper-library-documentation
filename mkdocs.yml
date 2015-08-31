@@ -1,5 +1,5 @@
 site_name: Twilio Wrapper Library
-site_desription: A ready-made wrapper library based on Twilio that can be easily embedded into any system for the purpose of implementing customized call funciton.
+site_description: A ready-made wrapper library based on Twilio that can be easily embedded into any system for the purpose of implementing customized call funciton.
 site_author: Fujio Harou
 pages:
 - Home: index.md

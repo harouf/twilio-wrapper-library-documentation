@@ -31,7 +31,7 @@ Configuration Parameters
 
 	- #####$callback_details
 
-		This includes the details of our actual customer support line that will be linked to customer once he accepts our followup call.
+		This includes the details of our actual thinQ line that will be linked to customer once he accepts our followup call.
 
 		- **$type:** Type of support line - can be either `sip` for custom voip, or `phone` for normal phone number.
 
@@ -58,9 +58,9 @@ Configuration Parameters
 
 			if `$type` is `phone`, details only include the target number:
 
-			- **$id:** the target customer line's `phone number`
+			- **$id:** the target thinQ line's `phone number`
 
-Initiate a call to the customer line
+Initiate a call to the thinQ line
 ------------------------------------
 
 ```php
@@ -86,7 +86,7 @@ if(!empty($customer_phone_no)){
         array(                                          // Your Twilio credentails
             'twilio_account' => array( 'sid' => 'ACa5a21802beff96f147d40bf98c957038', 'token' => '7852c807435af28d468344ca57a49d2a'),
             'twilio_number' => '+1234567890'
-        ),                                              // Your customer platform endpoint
+        ),                                              // Your thinQ endpoint
         array(
             'type' => 'sip',                          // can be 'sip' or 'phone'
             'detail' => array(                                      // SIP details here
@@ -123,7 +123,7 @@ if(!empty($customer_phone_no)){
     <form name="customer_form" action="" method="post">
         <label for="customer_phone_no">Your Phone Number: </label>
         <input type="text" name="customer_phone_no" />
-        <input type="submit" value="Call Customer System" />
+        <input type="submit" value="Call thinQ line" />
     </form>
     <br/><br/>
     <? if(isset($result) && $result){ ?>

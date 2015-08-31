@@ -1,8 +1,8 @@
-# Welcome to Twilio Wrapper Library
+# Welcome to Twilio Wrapper Library For thinQ LCR integration
 
-Twilio Wrapper Library is just written for the purpose to bring a new level of ease to the developers who deal with Twilio into their system.
+Twilio Wrapper Library is just written for the purpose to bring a new level of ease to the developers who deal with Twilio integration with [thinQ LCR](http://www.thinq.com/lcr/) system.
 
-The initiative of this library is based on the demand to write a module for website solutions that implements a feature which in turn enables the end users of the system to call their dedicated customer support line directly.
+The initiative of this library is based on the demand to write a module for website solutions that implements a feature which in turn enables the end users of the system to call their dedicated thinQ LCR service line directly.
 
 > **Here's a simple scenario:**
 
@@ -10,7 +10,7 @@ The initiative of this library is based on the demand to write a module for webs
 > - He navigates through the pages and comes to have some questions to ask.
 > - Although there's customer contact page on the website, he sees a form from which he can initiate a call directly.
 > - He puts his number and click the 'call' button, he will receive a follow up call on his phone.
-> - Upon acceptance of the call, he will be friendly directed to customer support line.
+> - Upon acceptance of the call, he will be friendly directed to thinQ line.
 
 ## So what does it do exactly?
 
