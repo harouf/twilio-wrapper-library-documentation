@@ -4,6 +4,8 @@ Twilio Wrapper Library is just written for the purpose to bring a new level of e
 
 The initiative of this library is based on the demand to write a module for website solutions that implements a feature which in turn enables the end users of the system to call their dedicated thinQ LCR service line directly.
 
+*__Note that you will need a valid LCR Account with thinQ before using the libraries. For more information please contact your thinQ Sales representative at [http://www.thinq.com/library/](http://www.thinq.com/library/)__*
+
 > **Here's a simple scenario:**
 
 > - A end user visits your website. e.g. `http://www.example.org`
@@ -29,5 +31,7 @@ The initiative of this library is based on the demand to write a module for webs
 ## Dependencies
 > - PHP >= 5.2.3
 > - [twilio-php 4.3.0](https://www.github.com/twilio/twilio-php)
+
+Documentation source is on [@github](https://github.com/harouf/twilio-wrapper-library-documentation.git)
 
 #### *Authored by @Fujio Harou, 2015*
